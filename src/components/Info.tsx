@@ -1,11 +1,7 @@
 import { FaLayerGroup } from "react-icons/fa";
 import Button from "./Button";
 import { PiFilmSlateThin } from "react-icons/pi";
-import { useState } from "react";
-
 export default function Info() {
-  const [sun, setSun] = useState(0);
-
   return (
     <section className="flex gap-5 justify-between w-full text-blue-01 items-center flex-wrap ">
       <div className="md:flex-1 flex md:gap-2 gap-4  justify-center flex-col ">

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+    --color-blue-01: #00A2F7;
+}
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        color: #fff;
+        background-color: #e6e6e6;
+        font-family: "Sen", sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer utilities {
+    .text-gradient {
+        background: linear-gradient(90deg, rgba(36, 34, 0, 1) 0%, rgb(17, 17, 207) 0%, rgba(255, 119, 0, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
